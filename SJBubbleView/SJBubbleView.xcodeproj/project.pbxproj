@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B53CDA5B1F29835200575A63 /* SJBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53CDA5A1F29835200575A63 /* SJBubbleView.swift */; };
 		B5D0A1A41F2982BD00A1775F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D0A1A31F2982BD00A1775F /* AppDelegate.swift */; };
 		B5D0A1A61F2982BD00A1775F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D0A1A51F2982BD00A1775F /* ViewController.swift */; };
 		B5D0A1A91F2982BD00A1775F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5D0A1A71F2982BD00A1775F /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B53CDA5A1F29835200575A63 /* SJBubbleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJBubbleView.swift; sourceTree = "<group>"; };
 		B5D0A1A01F2982BD00A1775F /* SJBubbleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJBubbleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5D0A1A31F2982BD00A1775F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5D0A1A51F2982BD00A1775F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				B5D0A1A31F2982BD00A1775F /* AppDelegate.swift */,
 				B5D0A1A51F2982BD00A1775F /* ViewController.swift */,
+				B53CDA5A1F29835200575A63 /* SJBubbleView.swift */,
 				B5D0A1A71F2982BD00A1775F /* Main.storyboard */,
 				B5D0A1AA1F2982BD00A1775F /* Assets.xcassets */,
 				B5D0A1AC1F2982BD00A1775F /* LaunchScreen.storyboard */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					B5D0A19F1F2982BD00A1775F = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5R5LG6672G;
 						ProvisioningStyle = Automatic;
 					};
 					B5D0A1B31F2982BD00A1775F = {
@@ -261,6 +265,7 @@
 			files = (
 				B5D0A1A61F2982BD00A1775F /* ViewController.swift in Sources */,
 				B5D0A1A41F2982BD00A1775F /* AppDelegate.swift in Sources */,
+				B53CDA5B1F29835200575A63 /* SJBubbleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,7 +419,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5R5LG6672G;
 				INFOPLIST_FILE = SJBubbleView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tcgroup.SJBubbleView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,7 +433,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5R5LG6672G;
 				INFOPLIST_FILE = SJBubbleView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tcgroup.SJBubbleView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +516,7 @@
 				B5D0A1CA1F2982BD00A1775F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5D0A1CB1F2982BD00A1775F /* Build configuration list for PBXNativeTarget "SJBubbleViewTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +525,7 @@
 				B5D0A1CD1F2982BD00A1775F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5D0A1CE1F2982BD00A1775F /* Build configuration list for PBXNativeTarget "SJBubbleViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +534,7 @@
 				B5D0A1D01F2982BD00A1775F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

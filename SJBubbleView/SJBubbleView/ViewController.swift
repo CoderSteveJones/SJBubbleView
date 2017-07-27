@@ -13,6 +13,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let bubbleView = SJBubbleView(beginPoint: CGPoint(x: 100,y: 100), bubbleWidth: 50, superView: self.view)
+        bubbleView.backgroundColor = UIColor.red
+        view.addSubview(bubbleView)
+        
     }
 
     override func didReceiveMemoryWarning() {
