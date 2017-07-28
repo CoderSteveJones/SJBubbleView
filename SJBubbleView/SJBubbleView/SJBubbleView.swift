@@ -54,10 +54,10 @@ class SJBubbleView: UIView {
     
     
     init(beginPoint: CGPoint,bubbleWidth: Double,superView: UIView) {
+        super.init(frame: CGRect(x: Double(beginPoint.x), y: Double(beginPoint.y), width: bubbleWidth, height: bubbleWidth))
         self.begin_Point = beginPoint
         self.super_View = superView
         self.bubble_Width = bubbleWidth
-        super.init(frame: CGRect(x: Double(beginPoint.x), y: Double(beginPoint.y), width: bubbleWidth, height: bubbleWidth))
         setupConfig()
     }
     
